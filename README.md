@@ -3,6 +3,7 @@ React recipe app
 
 # Issues:
 - Ensure you are in correct dir to rum commands
+- Food2Fork website no longer exists instead use RAPIDAPI 
 
 # Resources used:
 
