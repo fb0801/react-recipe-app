@@ -1,6 +1,8 @@
 # react-recipe-app
 React recipe app
 
+# Issues:
+- Ensure you are in correct dir to rum commands
 
 # Resources used:
 
