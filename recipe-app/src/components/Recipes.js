@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 
 
 const Recipes = props => (
-    <div>
-             {props.recipes.map((recipe) => {
+    <div className='container'>
+      <div className='row'>
+      {props.recipes.map((recipe) => {
             return (
               <div key={recipe.recipe_id}>
                 <img src={recipe.image_url} alt={recipe.title} />
@@ -12,6 +13,8 @@ const Recipes = props => (
               </div>
             )
         } ) }
+      </div>
+             
     </div>
 )
 export default Recipes
