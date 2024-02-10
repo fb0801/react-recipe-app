@@ -9,7 +9,10 @@ const Recipes = props => (
             return (
              <div className="col-md-4">
               <div className='recipe__box'> 
-              <img className="recipe__box-img" src={rec.img_url} alt={recipe.title} />
+              <img className="recipe__box-img" src={recipe.image_url} alt={recipe.title} />
+
+              <div className='recipe__text'> <h5>{recipe.title}</h5></div>
+
               
               </div>
              </div>
