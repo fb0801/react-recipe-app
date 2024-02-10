@@ -7,7 +7,7 @@ const Router = () => (
     <BrowserRouter>
     <Switch>
     <Route path='/' Component={App} exact />
-    <Route path='/recipe' Component={Recipe} />
+    <Route path='/recipe/:id' Component={Recipe} />
     </Switch>
 
     </BrowserRouter>
