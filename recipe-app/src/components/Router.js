@@ -5,7 +5,12 @@ import Recipe from "./Recipe";
 
 const Router = () => (
     <BrowserRouter>
-    <Route path='/' Component={App} />
+    <Switch>
+    <Route path='/' Component={App} exact />
+    <Route path='/recipe' Component={Recipe} />
+    </Switch>
 
     </BrowserRouter>
 )
+
+export default Router;
